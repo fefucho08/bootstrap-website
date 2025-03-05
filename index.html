@@ -27,8 +27,76 @@
     </head>
     <body>
         <header
-            class="container-fluid hero d-flex align-items-center justify-content-center p-0 p-md-5 text-center text-md-start"
+            class="container-fluid hero d-flex flex-column justify-content-center p-0 p-lg-5 text-center text-md-start"
         >
+            <div class="container-fluid p-0 px-lg-5">
+                <nav
+                    class="navbar navbar-expand-lg navbar-dark gap-0 gap-lg-5 p-4 pt-lg-0"
+                >
+                    <a class="navbar-brand fw-bold"> BrandName </a>
+                    <div class="d-flex gap-2 d-lg-none fw-bold">
+                        <button
+                            class="border-0 bg-transparent text-light p-2"
+                            type="button"
+                            aria-label="search"
+                        >
+                            <i class="bi bi-search fs-5"></i>
+                        </button>
+                        <button
+                            class="border-0 bg-transparent text-light p-2"
+                            type="button"
+                            aria-label="cart"
+                        >
+                            <i class="bi bi-cart fs-5"></i>
+                        </button>
+                        <button
+                            class="border-0 bg-transparent text-light p-2"
+                            type="button"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavDropdown"
+                            aria-controls="navbarNavDropdown"
+                            aria-expanded="false"
+                            aria-label="Toggle navigation"
+                        >
+                            <i class="bi bi-filter-right fs-5"></i>
+                        </button>
+                    </div>
+                    <div
+                        class="collapse navbar-collapse fw-medium text-light justify-content-between align-items-center mt-5 mt-lg-0"
+                        id="navbarNavDropdown"
+                    >
+                        <ul class="navbar-nav text-center">
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a href="#" class="nav-link active">Contact</a>
+                            </li>
+                        </ul>
+                        <div
+                            class="navbar-nav gap-3 align-items-center d-none d-lg-flex"
+                        >
+                            <a
+                                href="#"
+                                class="nav-item nav-link active fw-medium"
+                                >Login</a
+                            >
+                            <button
+                                class="btn btn-info text-light d-flex gap-2 align-items-center px-4 py-3 btn-sm fw-semibold"
+                            >
+                                Become a member
+                                <i class="bi bi-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+                </nav>
+            </div>
             <div class="row px-5 row-gap-3">
                 <div
                     class="col-md-6 text-light py-5 d-flex gap-4 flex-column align-items-center align-items-md-start"
