@@ -4,7 +4,9 @@
     transform: translate(-50%, -50%);
 }
 
-
+.footer-lower {
+    background-color: #252b42;
+}
 
 @media (min-width: 1024px) {
     .btn-footer {
@@ -13,5 +15,9 @@
 
     .f-midd-col {
         margin-left: 50px;
+    }
+
+    .footer-lower {
+        background-color: #fff;
     }
 }
